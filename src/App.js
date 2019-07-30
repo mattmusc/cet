@@ -44,9 +44,11 @@ function App() {
       <Subtitle>06.07.2019</Subtitle>
       <Lander>That's all folks!</Lander>
       <Subtitle>Seguici su</Subtitle>
-      <Anchor href={"https://www.instagram.com/explore/tags/lescleins/"}>
-        <HashTag>#lesCleins</HashTag>
-      </Anchor>
+      <HashTag>
+        <Anchor href={"https://www.instagram.com/explore/tags/lescleins/"}>
+          #lesCleins
+        </Anchor>
+      </HashTag>
     </Container>
   );
 }
